@@ -411,11 +411,12 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 10%;
-    border: 5px solid crimson;
+    height: 190px;
+    width: 190px;
+    background-color: #8e8ddb;
+    object-fit: contain;
+    border-radius: 8%;
+    /* border: 5px solid #2b4a53; */
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
