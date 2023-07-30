@@ -235,9 +235,9 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
-.about .about-content .right{
+/* .about .about-content .right{
     width: 55%;
-}
+} */
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
@@ -358,26 +358,29 @@ section .title::after{
     top: 0;
     background: #6527BE;
 }
+.skills-content .right .wordpress::before{
+    width: 95%;
+}
 .skills-content .right .html::before{
     width: 95%;
 }
 .skills-content .right .css::before{
     width: 95%;
 }
-.skills-content .right .js::before{
-    width: 80%;
+.skills-content .right .tcss::before{
+    width: 95%;
 }
 .skills-content .right .sass::before{
-    width: 95%;
-}
-.skills-content .right .php::before{
-    width: 85%;
+    width: 90%;
 }
 .skills-content .right .bootstrap::before{
-    width: 95%;
+    width: 90%;
 }
-.skills-content .right .c::before{
-    width: 80%;
+.skills-content .right .js::before{
+    width: 90%;
+}
+.skills-content .right .reactjs::before{
+    width: 90%;
 }
 
 /* teams section styling */
@@ -413,7 +416,7 @@ section .title::after{
 .teams .carousel .card img{
     height: 190px;
     width: 190px;
-    background-color: #8e8ddb;
+    background-color: #8E8DDB;
     object-fit: contain;
     border-radius: 8%;
     /* border: 5px solid #2b4a53; */
