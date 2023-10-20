@@ -481,7 +481,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #888;
 }
 .contact .right form .fields{
     display: flex;
@@ -542,6 +542,65 @@ section .title::after{
   color: #6527BE;
   background: none;
 }
+.contact .contact-content .roww{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .roww .info{
+    margin-left: 30px;
+}
+.contact .contact-content .roww i{
+    font-size: 25px;
+    color: #6527BE;
+    margin-right: 8px;
+}
+.contact .contact-content .rowww{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .rowww .info{
+    margin-left: 30px;
+}
+.contact .contact-content .rowww i{
+    font-size: 25px;
+    color: #6527BE;
+    margin-right: 4px;
+}
+.contact .contact-content .rowgit{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .rowgit .info{
+    margin-left: 30px;
+}
+.contact .contact-content .rowgit i{
+    font-size: 25px;
+    color: #6527BE;
+}
+
+.contact .contact-content .rowlin{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .rowlin .info{
+    margin-left: 30px;
+}
+.contact .contact-content .rowlin i{
+    font-size: 25px;
+    color: #6527BE;
+}
+
+
+
+
+
+
+
+
 /* footer section styling */
 footer{
     background: #111;
@@ -556,6 +615,8 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+
 
 
 /* responsive media query start */
@@ -643,9 +704,9 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-    .contact .contact-content .sub-title{
+    /* .contact .contact-content .sub-title{
         word-break: break-word;
-    }
+    } */
     .skills .skills-content .right .bars{
         margin-left: 0;
     }
@@ -675,6 +736,7 @@ footer span a:hover{
     }
 }
 
+
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -703,6 +765,21 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    .contact .contact-content .rowgit .info{
+        padding-top: 4%;
+    }
+    .contact .contact-content .rowgit .sub-title{
+        padding-bottom: 5px;
+        color: #888;
+    }
+
+    .contact .contact-content .rowlin .info{
+        padding-top: 4%;
+    }
+    .contact .contact-content .rowlin .sub-title{
+        padding-bottom: 5px;
+        color: #888;
+    }   
 }
 
 @media (max-width: 500px) {
